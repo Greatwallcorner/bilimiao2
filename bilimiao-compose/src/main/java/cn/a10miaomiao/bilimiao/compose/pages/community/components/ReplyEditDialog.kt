@@ -314,7 +314,8 @@ private fun ReplyTextField(
                 .padding(8.dp)
                 .focusRequester(state.focusRequester),
             textStyle = TextStyle(
-                fontSize = 18.sp
+                fontSize = 18.sp,
+                color = MaterialTheme.colorScheme.onBackground
             ),
             value = state.input,
             onValueChange = state::inputChange,
