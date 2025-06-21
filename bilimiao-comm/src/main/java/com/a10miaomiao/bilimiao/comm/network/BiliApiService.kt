@@ -32,4 +32,5 @@ object BiliApiService {
     val authApi = AuthApi()
     val homeApi = HomeApi()
     val archiveApi = ArchiveApi()
+    val dynamicApi = DynamicApi()
 }
